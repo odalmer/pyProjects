@@ -14,7 +14,7 @@ root.withdraw()
 folder_path = filedialog.askdirectory() 
 
 print("Title: ", yt.title)
-print("Views: ", yt.views/1000000 + "M")
+print("Views: ", yt.views/1000000, "M")
 print("Please wait")
 
 yd = yt.streams.get_highest_resolution()
